@@ -17,7 +17,7 @@ body{
 .logoBanner img{
     position: relative;
     top: 20px;
-    width: 10%;
+    width: 11%;
     float: left;
     margin-left: 2em;
 }
@@ -48,14 +48,14 @@ font-weight: bold;
     text-decoration: underline;
 }
 
-.textinho {
+.textinho{
     text-align: center;
     color: white;
     font-size: 2em;
     margin: 5px 45px 10px 35px;
 }
 
-.nomeSite {
+.nomeSite{
     text-align: center;
     color: white;
     font-size: 5em;
@@ -63,12 +63,12 @@ font-weight: bold;
 }
 
 .content {
-    height: 500px;
-    width: 1000px;
+    height: 400px;
+    width: 600px;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
-    left: 25%;
+    left: 28%;
     margin-top: auto;
 }
 
@@ -189,28 +189,6 @@ input {
     transition: .1s;
 }
 
-.caixaService table  {
-    text-align: center;
-}
-
-.caixaService tr th{
-    font-size: 2em;
-    font-weight: bold;
-    color: white;
-    
-    padding: 50px;
-}
-
-.caixaService th td {
-    padding: 500px;
-}
-
-.caixaService img{
-    width: 20%;
-}
-
-
-
 .servico{
     text-align: center;
     display: inline;
@@ -224,8 +202,8 @@ input {
 .servico img {
     border-radius: 12px;
 }
- 
-.servico img:hover {
+
+.servico ul li :hover {
     transform: scale(1.05,1.05);
     transition: .1s;
 }
