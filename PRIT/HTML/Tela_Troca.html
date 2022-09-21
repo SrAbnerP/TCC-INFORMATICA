@@ -4,9 +4,118 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/CSS/Tela_Troca.css" />
     <title>Tela de Troca</title>
   </head>
   <body>
-    
+    <header></header>
+    <main>
+      <!-- Titulo -->
+      <div class="title">Popostas de Trocas</div>
+
+      <!-- Tabela para divisao, entre anucio e descrição -->
+      <table>
+        <tr>
+          <div class="containerAnuncio">
+            <td>
+              <!-- Anucio -->
+              <div class="anuncio">
+                <figure>
+                  <img src="/imagens/BannerDoom.png" alt="" />
+                </figure>
+              </div>
+            </td>
+            <div class="containerDesc">
+              <td>
+                <!-- Area de nome, preço, descriação -->
+                <ul>
+                  <div class="sobreAnuncio">
+                    <li>Doom</li>
+                    <li>R$50,00</li>
+                  </div>
+
+                  <div class="titleDesc">
+                    <li>Descrição</li>
+                  </div>
+                  <br />
+                  <div class="desc">
+                    <li>
+                      Alien: Isolation é um jogo eletrônico de ação-aventura e
+                      sobrevivência desenvolvido pela Creative Assembly e
+                      publicado pela Sega. Ele foi lançado originalmente para as
+                      plataformas Microsoft Windows, PlayStation 3, PlayStation
+                      4, Xbox 360 e Xbox One.
+                    </li>
+                  </div>
+                </ul>
+              </td>
+            </div>
+          </div>
+        </tr>
+      </table>
+
+      <div>
+        <table>
+          <tr>
+            <td>
+              <ul>
+                <li>Proposta feita pelo vendedor:</li>
+                <li><img src="/imagens/BATTLE V.png" alt="" /></li>
+                <li>
+                  <form action="">
+                    <input type="button" value="Aceitar" />
+                  </form>
+                </li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Fazer sua propria proposta:</li>
+                <br />
+                <li>
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Jogos cadastrados
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">GTA V</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">ALIEN ISOLATION</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">OUTLAST 1</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <br />
+                <li>
+                  <form action="">
+                    <input type="button" value="Enviar" />
+                  </form>
+                </li>
+                <br />
+                <li><div>Cadastre seus jogos:</div></li>
+                <li>
+                  <form action="">
+                    <input type="button" value="Cadastre" />
+                  </form>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer></footer>
   </body>
 </html>
