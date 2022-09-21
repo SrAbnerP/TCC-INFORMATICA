@@ -66,6 +66,7 @@ body {
     color: white;
     font-size: 5em;
     font-weight: bold;
+    margin-top: 1em;
 }
 
 
@@ -77,6 +78,31 @@ body {
     margin: 5px 45px 10px 35px;
 }
 
+.titleDes {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+    margin-top: 1em;
+}
+
+/*Carousel*/
+.carousel-inner{
+    width: 55em;
+    border-radius: 1em;
+}
+
+.carousel{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+.carousel img{
+    border-radius: 1em;
+}
 
 /* Titulo de serviços */
 .title {
@@ -203,7 +229,6 @@ body {
     background-color: gray;
     border-radius: 1em;
 }
-
 
 /* Area de serviços */
 .serv {
