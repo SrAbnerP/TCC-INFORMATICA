@@ -6,6 +6,22 @@ body {
   background-color: rgb(22, 22, 22);
 }
 
+.container-fluid img {
+  width: 5em;
+}
+
+.container-fluid {
+  background-color: rgb(22, 22, 22);
+}
+
+.home a {
+  color: white;
+}
+
+.container-fluid li a {
+  color: white;
+}
+
 /*Titulo*/
 .title {
   text-align: center;
@@ -19,13 +35,12 @@ body {
 /*Anucio (Imagem)*/
 .anuncio {
   text-align: left;
-  margin-left: 10px;
   list-style: none;
 }
 
 .anuncio img {
   border-radius: 1em;
-  width: 40em;
+  width: 34em;
 }
 
 /*Area de Preço, nome, descrição*/
@@ -35,7 +50,7 @@ body {
   font-weight: bold;
   color: white;
   text-align: left;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   list-style: none;
 }
 
@@ -54,12 +69,67 @@ body {
   font-size: 1em;
   list-style: none;
 }
-.containerDesc {
+
+.prop table {
+  text-align: center;
+  align-items: center;
+  /* margin-left: 2%;
+  margin-right: 3%; */
+  /* display: flex; */
 }
 
-/* .containerAnuncio figcaption{
-    font-size: 1.3em;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-} */
+.prop tr td {
+  padding: 12em;
+}
+
+.prop li {
+  list-style: none;
+}
+
+.prop img {
+  width: 15em;
+  border-radius: 1em;
+}
+
+.titleProp {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  list-style: none;
+  margin-top: 2.5em;
+}
+
+.buttonOne {
+  background-color: red;
+  color: white;
+  font-family: "Arial";
+  font-weight: bold;
+  width: 14em;
+  border-radius: 0.7em;
+}
+
+.buttonTwo {
+  background-color: white;
+  color: black;
+  font-family: "Arial";
+  font-weight: bold;
+  width: 8em;
+  border-radius: 0.7em;
+}
+
+.titleCadYour {
+  font-weight: bold;
+  color: white;
+  text-align: right;
+  font-size: 1.2em;
+  list-style: none;
+  font-family: "Arial";
+}
+
+.containerCadJogo {
+  text-align: right;
+}
+
+.containerAnuncio {
+}
