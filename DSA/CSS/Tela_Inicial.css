@@ -8,14 +8,19 @@ body {
   background-color: rgb(18, 18, 18);
 }
 
+header {
+  background: url(../imagens/ImgFundo.jpg) no-repeat center;
+  background-size: 150%;
+}
+
 /* Logo (controle) */
-.logo img {
+/* .logo img {
   position: relative;
   top: 20px;
   width: 6%;
   float: left;
   margin-left: 2em;
-}
+} */
 
 /* Menu de controle */
 .menu {
