@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/CSS/Tela_perfil.css" />
+    <link rel="stylesheet" href="/CSS/Tela_Perfil.css" />
     <link rel="stylesheet" href="/CSS/NavBar.css" />
     <title>Pacifier</title>
   </head>
@@ -16,9 +16,11 @@
         </div>
         <div class="nav-list">
           <ul>
-            <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-            <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">COMUNIDADE</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link"> OFERTAS</a></li>
           </ul>
         </div>
         <div class="login-button">
@@ -33,9 +35,9 @@
       </nav>
       <div class="mobile-menu">
         <ul>
-          <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">COMUNIDADE</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">OFERTAS</a></li>
         </ul>
 
         <div class="login-button">
@@ -44,12 +46,133 @@
       </div>
     </header>
     <main>
-      <div class="nav-area">
-        <div class="navs">
-          <div class="nav"></div>
+      <div class="container">
+        <div class="container-button">
+          <div class="button">
+            <a href="Tela_Perfil.html"
+              ><input type="button" value="Geral" class="button"
+            /></a>
+            <a href=""
+              ><input type="button" value="Preferencias" class="button"
+            /></a>
+            <a href=""
+              ><input type="button" value="Privacidade" class="button"
+            /></a>
+            <a href=""
+              ><input type="button" value="Segurança" class="button"
+            /></a>
+            <a href=""
+              ><input type="button" value="Biblioteca" class="button"
+            /></a>
+          </div>
+        </div>
+        <div class="container-ever">
+          <div class="container-geral">
+            <div class="title">
+              <h1>Configurações gerais</h1>
+            </div>
+            <div class="geral">
+              <p>
+                Gerencie os detalhes da conta que você compartilhou com a Epic
+                Games, incluindo seu nome, informações de contato e mais
+              </p>
+            </div>
+
+            <div class="title">
+              <h1>Informações da conta</h1>
+            </div>
+            <div class="geral-info">
+              <form action="">
+                <div class="text-info">
+                  <label for="">Seu e-mail:</label>
+                  <br />
+                  <input type="email" placeholder="E-mail" />
+                  <button>Editar</button>
+                </div>
+                <br />
+                <div class="text-info">
+                  <label for="">Sua senha:</label>
+                  <br />
+                  <input type="password" placeholder="Senha" />
+                  <button>Editar</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="title">
+              <h1>Detalhes Pessoais</h1>
+            </div>
+            <div class="geral">
+              <p>
+                Gerencie seu nome e informações de contato. Essas informações
+                pessoais são privadas e não serão exibidos para outros usuários.
+                Veja a nossa Política de Privacidade
+              </p>
+            </div>
+
+            <div class="geral-detalhe">
+              <form action="">
+                <div class="text-info">
+                  <label for="#">Nome:</label>
+                  <input type="text" placeholder="Nome" />
+                </div>
+                <div class="text-info">
+                  <label for="">Sobrenome:</label>
+                  <input type="text" placeholder="Sobrenome" />
+                </div>
+                <div class="text-info">
+                  <label for="">Telefone:</label>
+                  <input type="text" placeholder="(xx) xxxxx-xxxx" />
+                </div>
+                <div class="text-info">
+                  <label for="">Idioma:</label>
+                  <input type="text" placeholder="Idioma" />
+                </div>
+
+                <div class="text-info">
+                  <button>Descartar Mudanças</button>
+                  <button>Salvar Mudanças</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="geral-endereco">
+              <div class="title">
+                <h1>Endereço</h1>
+              </div>
+
+              <form action="">
+                <div class="text-info">
+                  <label for="">CEP:</label>
+                  <input type="text" placeholder="CEP" />
+                </div>
+                <div class="text-info">
+                  <label for="">Estado:</label>
+                  <input type="text" placeholder="Estado" />
+                </div>
+                <div class="text-info">
+                  <label for="">Cidade:</label>
+                  <input type="text" placeholder="Cidade" />
+                </div>
+                <div class="text-info">
+                  <label for="">Endereço:</label>
+                  <input type="text" placeholder="Endereço" />
+                </div>
+                <div class="text-info">
+                  <label for="">Numero:</label>
+                  <input type="text" placeholder="Numero" />
+                </div>
+                <div class="text-info">
+                  <button>Descartar Mudanças</button>
+                  <button>Salvar Mudanças</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </main>
+    <footer></footer>
 
     <script src="/JS/NavBar.js"></script>
   </body>
