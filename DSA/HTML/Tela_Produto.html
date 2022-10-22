@@ -12,10 +12,50 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/CSS/Tela_Produto.css" />
+    <link rel="stylesheet" href="/CSS/NavBar.css" />
   </head>
   <body>
     <header>
-      <div><img src="/imagens/menu.png" /></div>
+      <nav class="nav-bar">
+        <div class="logo">
+          <a href=""><img src="/imagens/Controle.png" alt="" /></a>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><input type="text" placeholder="O que procura?"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="login-button">
+          <button><a href="#">Entrar</a></button>
+        </div>
+
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img class="icon" src="/imagens/menu_white.svg" alt="" />
+          </button>
+        </div>
+      </nav>
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+        </ul>
+
+        <div class="login-button">
+          <button><a href="#">Entrar</a></button>
+        </div>
+      </div>
+
+      <!-- <div><img src="/imagens/menu.png" /></div>
       <div><button>Home</button></div>
       <div><button>Jogos</button></div>
       <div><button>Comunidade</button></div>
@@ -26,7 +66,7 @@
         <button>
           <img src="/imagens/foto_perfil.png" />
         </button>
-      </div>
+      </div> -->
     </header>
 
     <main>
@@ -62,8 +102,8 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="/imagens/mario_strikers.jpg"
-                class="d-block w-100"
+                src="/imagens/BannerDoom.png"
+                class="d-block w-100 picture"
                 alt="aff"
               />
             </div>
@@ -251,5 +291,6 @@
 
     <!--Script da própria página-->
     <script src="/JS/Tela_Produto.js"></script>
+    <script src="/JS/NavBar.js"></script>
   </body>
 </html>
