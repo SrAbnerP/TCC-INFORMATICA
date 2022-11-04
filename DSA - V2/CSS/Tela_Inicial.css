@@ -17,7 +17,7 @@ body {
 /*Banner*/
 header {
   background: url(../imagens/ImgFundo.jpg) no-repeat center;
-  background-size: 150%;
+  background-size: 200%;
 }
 
 /* Logo (controle) */
@@ -177,6 +177,7 @@ header {
 .backColor {
   background-color: rgb(22, 22, 22);
   border: 2px solid white;
+  margin-top: 2em;
 }
 
 /* Titulo contatos */
@@ -198,4 +199,168 @@ header {
   color: white;
   margin-left: 160px;
   margin-right: 160px;
+}
+
+@media screen and (max-width: 1200px) {
+  .nameSite {
+    font-size: 4em;
+  }
+  .frase {
+    font-size: 1.5em;
+  }
+  .search input {
+    padding: 0.8rem;
+    width: 45rem;
+  }
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 1078px) {
+  .nameSite {
+    font-size: 3em;
+  }
+  .frase {
+    font-size: 1em;
+  }
+  .search input {
+    padding: 0.8rem;
+    width: 43rem;
+  }
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  header {
+    background: url(../imagens/ImgFundo.jpg) no-repeat center;
+    background-size: 250%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nameSite {
+    font-size: 4em;
+  }
+  .frase {
+    font-size: 1.5em;
+  }
+  .search input {
+    padding: 0.7rem;
+    width: 35rem;
+  }
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .nameSite {
+    font-size: 2.5em;
+  }
+  .frase {
+    font-size: 1em;
+  }
+  .search input {
+    padding: 0.5rem;
+    width: 28rem;
+  }
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  header {
+    background: url(../imagens/ImgFundo.jpg) no-repeat center;
+    background-size: 300%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Imagem de fundo */
+  header {
+    background: url(../imagens/ImgFundo.jpg) no-repeat center;
+    background-size: 480%;
+  }
+
+  /* nome e frase */
+  .nameSite {
+    font-size: 2.8em;
+  }
+  .frase {
+    font-size: 1.1em;
+  }
+
+  /* Barra de pesquisa */
+  .search input {
+    padding: 0.4rem;
+    width: 24rem;
+  }
+
+  /* Titulos */
+  .titleDes {
+    font-size: 2.3em;
+    margin-top: 1em;
+  }
+  .title {
+    font-size: 2.5em;
+    margin-bottom: 6%;
+    margin-top: 6%;
+  }
+
+  .backColor {
+    margin-top: 2em;
+  }
+  /*Carousel*/
+  .carousel-inner {
+    width: 30em;
+    border-radius: 1em;
+  }
+  /* Titulo contatos */
+  .titleCont {
+    font-size: 1em;
+  }
+  .caixaCont p {
+    font-size: 0.6em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nameSite {
+    font-size: 1.9em;
+  }
+  .frase {
+    font-size: 0.6em;
+  }
+  .search input {
+    padding: 0.2rem;
+    width: 17rem;
+  }
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
 }
