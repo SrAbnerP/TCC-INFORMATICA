@@ -67,12 +67,14 @@
               />
             </div>
 
+            <p class="error"></p>
+
             <div class="input-box">
               <label for="password">Senha: </label>
               <input
                 type="password"
-                id="password"
-                name="password"
+                id="senha"
+                name="senha"
                 placeholder="Digite sua senha"
                 required
               />
@@ -82,8 +84,8 @@
               <label for="Confirmpassword">Confirme sua senha: </label>
               <input
                 type="password"
-                id="Confirmpassword"
-                name="Confirmpassword"
+                id="confirmarSenha"
+                name="confirmarSenha"
                 placeholder="Digite sua senha"
                 required
               />
@@ -119,10 +121,12 @@
           </div>
 
           <div class="continue-button">
-            <button><a href="#">Continuar</a></button>
+            <button onclick="return comfirmPass()"><a href="#">Continuar</a></button>
           </div>
         </form>
       </div>
     </div>
+
+    <script src="/JS/Tela_Cadastro.js"></script>
   </body>
 </html>
